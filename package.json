@@ -1,0 +1,12 @@
+{
+    "name": "tailwind-css",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx tailwindcss -i src/static/css/tailwind.css -o dist/style.css -w --minify"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

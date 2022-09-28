@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-items.active {
+        @apply block absolute w-full text-center left-0 py-5 text-2xl transition-all;
+    }
+
+    .nav-items.active li {
+        @apply mb-4;
+    }
+}
